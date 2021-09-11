@@ -3,12 +3,21 @@ const CashGiven = document.querySelector("#Cash-given");
 const CheckButton = document.querySelector("#Button-check");
 const message = document.querySelector("#error-message");
 const noOfNotes = document.querySelectorAll(".no-of-notes");
+const billspan= document.querySelector("#bill");
 
 const availableNotes =[2000,1000,500,100,20,10,1];
 
-if(BillAmount.value==="")
+// trying to validate first input
+function validation(){
+
+if(BillAmount.value ==="")
 {
-    document.querySelector("#bill").innerHTML ="Please Enter a bill amount";
+    billspan.innerHTML ="Please Enter a bill amount";
+}
+else{
+    billspan.style.display="none";
+    
+}
 }
 
 CheckButton.addEventListener("click", () => {

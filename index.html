@@ -12,14 +12,16 @@
     <div class="container">
         <h1 class="heading">Cash Register</h1>
         <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
-        
+
         <label for="Bill-amount" class="input-label">Bill Amount:</label>
-        <input type="text" id="Bill-amount" class="input"></input><span id="bill" class="text-danger font-weight-bold"></span>
+         <input type="text" id="Bill-amount" class="input" onfocus="validation()"></input>
+            <span style="color: blue;" id="bill" ></span>
 
         <label for="Cash-given" class="input-label">Cash Given:</label>
-        <input type="text" id="Cash-given" class="input"></input>
+        <input type="text" id="Cash-given" class="input" onfocus="validation()" ></input>
 
         <button id="Button-check">Check</button>
+ 
         <p id="error-message"></p>
 
       <table class="Change-table">

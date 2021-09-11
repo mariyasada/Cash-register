@@ -84,8 +84,9 @@ body{
     width: 50%;
     text-align: justify;
     border-collapse: collapse;
-    margin:  auto;
+    margin:  0.7rem auto;
     color:var(--primary-color);
+    display: block;
     /* position: fixed;
     bottom: 10px;
     left:31%; */

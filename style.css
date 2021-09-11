@@ -12,7 +12,7 @@
 }
 body{
     font-family: 'Hind Siliguri', sans-serif;
-    min-width:100vw;
+    /* min-width:100vw; */
     background-color: var(--third-color) ;
     
 }
@@ -22,7 +22,7 @@ body{
 .container
 {
     margin: 4rem auto ;
-     display: flex;
+    display: flex;
     flex-direction: column;
     width: 50vw;
     background-color: var(--third-color); 
@@ -52,7 +52,7 @@ body{
     border: 2px solid var(--primary-color);
     border-radius: 0.2rem;
     width: 100%;
-    max-width: 30vw;
+    max-width: 24vw;
 }
 #Button-check{
      background:linear-gradient( to right, var(--primary-color), var(--secondary-color));

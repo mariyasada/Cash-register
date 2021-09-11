@@ -84,7 +84,10 @@ body{
     border-collapse: collapse;
     margin:  auto;
     color:var(--primary-color);
-   
+    position: fixed;
+    bottom: 10px;
+    left:31%;
+
 }
 .change-table caption {
     margin: 1rem auto;
@@ -97,7 +100,7 @@ body{
     border: 1px solid var(--primary-color);
     width: 0%;
     border-collapse: collapse;
-    padding: 0.7rem;
+    padding: 0.4rem;
     font-weight: bold;
     border-radius: 2rem;
   }

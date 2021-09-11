@@ -6,16 +6,21 @@ const noOfNotes = document.querySelectorAll(".no-of-notes");
 
 const availableNotes =[2000,1000,500,100,20,10,1];
 
+if(BillAmount.value==="")
+{
+    document.querySelector("#bill").innerHTML ="Please Enter a bill amount";
+}
+
 CheckButton.addEventListener("click", () => {
     console.log("clicked");
-    hideMessage();
-    if (BillAmount.value > 0) { // 30 > 0 => true
+     hideMessage();
+    if (BillAmount.value > 0) { // 12 > 0 => true
         // console.log(BillAmount.value);
         if (CashGiven.value >= BillAmount.value)
-        {  //100 > 30 => true
+        {  //2012> 12 => true
             console.log("inner if executed");
 
-            const amountToBeReturned = CashGiven.value - BillAmount.value; // 70= 100-30
+            const amountToBeReturned = CashGiven.value - BillAmount.value; // 2012-12 =2000
 
             console.log(amountToBeReturned);
 

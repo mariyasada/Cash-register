@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#4338CA;
+    --secondary-color:#312E81;
+    --third-color:#C7D2FE;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    min-width:100vw;
+    background-color: var(--third-color) ;
+    
+}
+/* .main{
+    background-color: var(--third-color) ;
+} */
+.container
+{
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    /* background-color: var(--third-color); */
+    border-radius: 0.7rem;
+    text-align: center;
+    
+}
+.heading{
+   color:var(--primary-color);
+}
+.description{
+      color: var(--secondary-color);
+      text-shadow: 2px 2px white;
+      font-weight: bold;
+}
+.input-label{
+    color:var(--primary-color);
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+    display: block;
+}
+.input{
+    font-size: 1rem;
+    outline: var(--secondary-color);
+    padding: 0.6rem 1rem;
+    margin: 0.5rem auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.2rem;
+    width: 100%;
+    max-width: 20vw;
+}
+#Button-check{
+     background:linear-gradient( to right, var(--primary-color), var(--secondary-color));
+     border: 2px solid var(--secondary-color);
+     margin:0.7rem auto;
+     font-size: large;
+     color:white;
+     display: block;
+     padding: 0.7rem 1rem;
+     border-radius: 0.5rem;
+     cursor: pointer;
+     text-shadow: 2px 2px var(--secondary-color);
+}
+#Button-check:hover{
+    background:linear-gradient(to right, #A5B4FC,#A78BFA);
+    border: 2px solid var(--primary-color);
+    color:var(--primary-color);
+    text-shadow: none;
+}
+#error-message{
+    display: block;
+    font-size: larger;
+    margin: 0.8rem;
+}
+/* Table styling */
+.Change-table{
+    width: 40vw;
+    text-align: justify;
+    border-collapse: collapse;
+    margin:  auto;
+    color:var(--primary-color);
+   
+}
+.change-table caption {
+    margin: 1rem auto;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  th,
+  td {
+    border: 1px solid var(--primary-color);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.7rem;
+    font-weight: bold;
+    border-radius: 2rem;
+  }
+  

@@ -81,15 +81,16 @@ body{
 }
 /* Table styling */
 .Change-table{
-    width: 50%;
+    /* width: 50%; */
+    max-width: 270px;
     text-align: justify;
     border-collapse: collapse;
-    margin:  0.7rem auto;
+    margin: 0.7rem auto;
     color:var(--primary-color);
     /* position: fixed;
     bottom: 10px;
     left:31%; */
-    right:70px;
+    
 
 }
 .change-table caption {

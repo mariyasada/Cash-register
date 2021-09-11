@@ -22,7 +22,7 @@ body{
     margin: 4rem auto  ;
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 70vw;
     background-color: var(--third-color); 
     border-radius: 0.7rem; 
     text-align: center;

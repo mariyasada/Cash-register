@@ -84,9 +84,9 @@ body{
     border-collapse: collapse;
     margin:  auto;
     color:var(--primary-color);
-    position: fixed;
+    /* position: fixed;
     bottom: 10px;
-    left:31%;
+    left:31%; */
 
 }
 .change-table caption {

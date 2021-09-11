@@ -79,7 +79,7 @@ body{
 }
 /* Table styling */
 .Change-table{
-    width: 45%;
+    width: 150px;
     text-align: justify;
     border-collapse: collapse;
     margin:  auto;

@@ -21,12 +21,12 @@ body{
 } */
 .container
 {
-    margin: 4rem auto;
-    display: flex;
+    margin: 4rem auto ;
+     display: flex;
     flex-direction: column;
     width: 50vw;
-    /* background-color: var(--third-color); */
-    border-radius: 0.7rem;
+    background-color: var(--third-color); 
+    border-radius: 0.7rem; 
     text-align: center;
     
 }
@@ -52,7 +52,7 @@ body{
     border: 2px solid var(--primary-color);
     border-radius: 0.2rem;
     width: 100%;
-    max-width: 20vw;
+    max-width: 30vw;
 }
 #Button-check{
      background:linear-gradient( to right, var(--primary-color), var(--secondary-color));
@@ -79,7 +79,7 @@ body{
 }
 /* Table styling */
 .Change-table{
-    width: 40vw;
+    width: 50%;
     text-align: justify;
     border-collapse: collapse;
     margin:  auto;

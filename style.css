@@ -21,8 +21,8 @@ body{
 {
     margin: 4rem auto  ;
     display: flex;
-    /* flex-direction: column; */
-    width: 80vw;
+    flex-direction: column;
+    width: 50vw;
     background-color: var(--third-color); 
     border-radius: 0.7rem; 
     text-align: center;
@@ -79,9 +79,9 @@ body{
 }
 /* Table styling */
 .Change-table{
-    /* width: 50%; */
-    display: block;
-    max-width: 300px;
+    width: 50%;
+    /* display: block; */
+    /* max-width: 300px; */
     text-align: justify;
     border-collapse: collapse;
     margin: 0.8rem auto;

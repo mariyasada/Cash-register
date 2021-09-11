@@ -82,16 +82,12 @@ body{
 /* Table styling */
 .Change-table{
     /* width: 50%; */
-    max-width: 270px;
+    display: block;
+    max-width: 300px;
     text-align: justify;
     border-collapse: collapse;
-    margin: 0.7rem auto;
+    margin: 0.8rem auto;
     color:var(--primary-color);
-    /* position: fixed;
-    bottom: 10px;
-    left:31%; */
-    
-
 }
 .change-table caption {
     margin: 1rem auto;

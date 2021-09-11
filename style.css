@@ -52,7 +52,7 @@ body{
     border: 2px solid var(--primary-color);
     border-radius: 0.2rem;
     width: 100%;
-    max-width: 24vw;
+    max-width: 270px;
 }
 #Button-check{
      background:linear-gradient( to right, var(--primary-color), var(--secondary-color));
@@ -79,7 +79,7 @@ body{
 }
 /* Table styling */
 .Change-table{
-    width: 50%;
+    width: 55%;
     text-align: justify;
     border-collapse: collapse;
     margin:  auto;

@@ -4,6 +4,7 @@ const CheckButton = document.querySelector("#Button-check");
 const message = document.querySelector("#error-message");
 const noOfNotes = document.querySelectorAll(".no-of-notes");
 const billspan= document.querySelector("#bill");
+const labelcash = document.querySelector(".cash");
 
 const availableNotes =[2000,1000,500,100,20,10,1];
 
@@ -65,3 +66,24 @@ function ShowMessage(msg){
     message.innerText =msg;
     message.style.color="#4338CA";
 }
+
+function onChangeHandler(event){
+
+}
+
+window.addEventListener("load", ()=>{
+    CashGiven.style.display="none";
+    labelcash.style.display="none";
+// adding a event listener to input field
+    BillAmount.addEventListener("input",()=>
+    { 
+        CashGiven.style.display="block";
+        labelcash.style.display="block";
+
+    });
+    BillAmount.addEventListener("keydown",()=>
+    {
+        CashGiven.style.display="none";
+        labelcash.style.display="none";
+    });
+});

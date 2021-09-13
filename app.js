@@ -6,7 +6,7 @@ const noOfNotes = document.querySelectorAll(".no-of-notes");
 const billspan= document.querySelector("#bill");
 const labelcash = document.querySelector(".cash");
 
-const availableNotes =[2000,1000,500,100,20,10,1];
+const availableNotes =[2000,1000,500,100,20,10,5,1];
 
 // trying to validate first input
 function validation(){
@@ -26,7 +26,7 @@ CheckButton.addEventListener("click", () => {
      hideMessage();
     if (BillAmount.value > 0) { // 12 > 0 => true
         // console.log(BillAmount.value);
-        if (CashGiven.value >= BillAmount.value)
+        if (Number(CashGiven.value) >= Number(BillAmount.value))
         {  //2012> 12 => true
             console.log("inner if executed");
 

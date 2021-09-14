@@ -22,20 +22,20 @@ else{
 }
 
 CheckButton.addEventListener("click", () => {
-    console.log("clicked");
+    // console.log("clicked");
      hideMessage();
     if (BillAmount.value > 0) { // 12 > 0 => true
         // console.log(BillAmount.value);
         if (Number(CashGiven.value) >= Number(BillAmount.value))
         {  //2012> 12 => true
-            console.log("inner if executed");
+            // console.log("inner if executed");
 
             const amountToBeReturned = CashGiven.value - BillAmount.value; // 2012-12 =2000
 
-            console.log(amountToBeReturned);
+            // console.log(amountToBeReturned);
 
             calculateChange(amountToBeReturned);
-            console.log("calling a function");
+            // console.log("calling a function");
         }
         else{
             ShowMessage("Do You Wanna Wash Plates?");
@@ -48,7 +48,7 @@ CheckButton.addEventListener("click", () => {
 
 //  calculatechange function
 function calculateChange(amountToBeReturned) {
-    console.log("function calling");
+    // console.log("function calling");
     for(let i=0; i< availableNotes.length;i++){
         const numberofnotes = Math.trunc( amountToBeReturned / availableNotes[i]);
         amountToBeReturned = amountToBeReturned % availableNotes[i];

@@ -67,9 +67,9 @@ function ShowMessage(msg){
     message.style.color="#4338CA";
 }
 
-function onChangeHandler(event){
+// function onChangeHandler(event){
 
-}
+// }
 
 window.addEventListener("load", ()=>{
     CashGiven.style.display="none";

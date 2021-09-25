@@ -13,7 +13,7 @@ function validation(){
 
 if(BillAmount.value ==="")
 {
-    billspan.innerHTML ="Please Enter a bill amount";
+    billspan.innerText ="Please Enter a bill amount";
 }
 else{
     billspan.style.display="none";

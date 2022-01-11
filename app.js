@@ -12,7 +12,7 @@ const availableNotes =[2000,1000,500,100,20,10,5,1];
 // converting code to ES6
 const validation = () => {
 
-if(BillAmount.value ==="")
+if(BillAmount.value === "")
 {
     billspan.innerText ="Please Enter a bill amount";
 }

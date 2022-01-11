@@ -9,7 +9,8 @@ const labelcash = document.querySelector(".cash");
 const availableNotes =[2000,1000,500,100,20,10,5,1];
 
 // trying to validate first input
-function validation(){
+// converting code to ES6
+const validation = () => {
 
 if(BillAmount.value ==="")
 {
@@ -47,7 +48,7 @@ CheckButton.addEventListener("click", () => {
 });
 
 //  calculatechange function
-function calculateChange(amountToBeReturned) {
+const calculateChange = (amountToBeReturned) => {
     // console.log("function calling");
     for(let i=0; i< availableNotes.length;i++){
         const numberofnotes = Math.trunc( amountToBeReturned / availableNotes[i]);
@@ -56,12 +57,12 @@ function calculateChange(amountToBeReturned) {
     }
 }
 
-function hideMessage()
+const hideMessage = ()=>
 {
     message.style.display="none";
 }
 
-function ShowMessage(msg){
+const ShowMessage = (msg) => {
     message.style.display="block";
     message.innerText =msg;
     message.style.color="#4338CA";
